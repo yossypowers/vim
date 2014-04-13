@@ -2,9 +2,21 @@ vim
 ===
 
 vim script
+Installed library
+* pathgen.vim
+プラグインのインストール先を/vim/bundle/hogeに変更できるため整理が楽
 
-* test
-* test
+* MRU
+最近使ったファイルに簡単にアクセス
 
-# test
+* Unite
+ファイラー
+
+# Neobundle
+ファイラー
+
+# TTListTab
+C関数リストの表示
+
+
 
