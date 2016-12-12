@@ -3,7 +3,7 @@
 " an example for a japanese version gvimrc file.
 " 日本語版のデフォルトgui設定ファイル(gvimrc) - vim7用試作
 "
-" last change: 10-Apr-2013.
+" last change: 12-Dec-2016.
 " maintainer:  muraoka taro <koron@tka.att.ne.jp>
 "
 " 解説:
@@ -32,5 +32,5 @@
 "
 "
 "source _vimrc
-source c:\honda\Program\vim73-kaoriya-win32\_vimrc
+source c:\honda\Program\vim80-kaoriya-win32\_vimrc
 

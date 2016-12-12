@@ -664,6 +664,29 @@ let g:ctrlp_use_migemo = 1
 let g:previm_open_cmd = 'C:\\Program\ Files\\Google\\Chrome\\Application\\chrome.exe'
 
 " ----------------------------------------------------------------------------------"
+"  vim-markdown
+"	https://github.com/plasticboy/vim-markdown
+"	<command>
+" 	:Toc: create a quickfix vertical window navigable table of contents with the headers.
+" ----------------------------------------------------------------------------------"
+
+"disable fold
+let g:vim_markdown_folding_disabled = 1
+
+"TOC enable
+let g:vim_markdown_toc_autofit = 1
+
+"Text emphasis restriction to single-lines
+let g:vim_markdown_emphasis_multiline = 0
+
+"Syntax concealing
+"set conceallevel=2
+"let g:vim_markdown_conceal = 0
+" Fenced code block languages
+let g:vim_markdown_fenced_languages = ['csharp=cs']
+
+
+" ----------------------------------------------------------------------------------"
 "今日の日付
 " :w $TODAY_hogehoge.txt
 " ----------------------------------------------------------------------------------"
@@ -702,7 +725,7 @@ nnoremap <F12> :call ShowIndex()<CR>
 "----------------------------------------------------------------------------------
 " file type　を自動設定
 "----------------------------------------------------------------------------------
-au BufNewFile,BufRead *.txt			setf yossy_txt
+au BufNewFile,BufRead,BufWrite *.txt			setf txt
 au BufNewFile,BufRead *.ytxt			setf yossy_txt
 au BufNewFile,BufRead *debug_log			setf debug
 au BufNewFile,BufRead,BufWrite *.md set filetype=markdown
